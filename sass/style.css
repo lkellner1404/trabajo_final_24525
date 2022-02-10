@@ -7,12 +7,16 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  background-color: #EEEEEE;
+}
+
+body a:link, body a:visited {
+  color: black;
 }
 
 .header {
-  background-color: gold;
   margin-top: 0;
   margin-bottom: 1em;
   display: -webkit-box;
@@ -27,8 +31,7 @@ body {
           align-items: center;
 }
 
-.header__logo, .main__img {
-  border: 1px solid #000;
+.header__logo {
   margin-top: 1em;
   width: 80vw;
 }
@@ -42,20 +45,21 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid #000;
+  background-color: #5aa3df;
   border-radius: 1em;
 }
 
-.header__list--link {
+.header__list--item {
   text-decoration: none;
 }
 
-.header__list--link:visited {
+.header__list--item:visited {
   color: #000;
 }
 
 .main {
-  background-color: aqua;
+  width: 85vw;
+  margin: 0 auto;
   margin-top: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,6 +88,8 @@ body {
 }
 
 .main__img {
+  margin-top: 1em;
+  width: 80vw;
   border-radius: 1.5em;
 }
 
@@ -98,7 +104,6 @@ body {
 .footer {
   margin-top: 1em;
   margin-bottom: 0;
-  background-color: tomato;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,26 +111,27 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__text {
   color: #000;
-  width: 100vw;
   font-size: 0.9em;
 }
 
 .footer__btn {
   margin-top: 0.5em;
   padding: 0.25em;
-  border: 1px solid #000;
   border-radius: 0.5em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   color: #fff;
   background-color: #0e76a8;
-  -webkit-box-shadow: 0.5em 0.5em 1em #0e76a8;
-          box-shadow: 0.5em 0.5em 1em #0e76a8;
+  -webkit-box-shadow: 0.5em 0.5em 1em #094f71;
+          box-shadow: 0.5em 0.5em 1em #094f71;
 }
 
 .footer__btn--linkedin {
@@ -141,18 +147,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .footer__list {
-  border: 1px solid #000;
-  margin-top: 0.25em;
+  margin: 0.25em;
 }
 
 .footer__list--item {

@@ -1,0 +1,36 @@
+.footer{
+    margin-top: 1em;
+    margin-bottom: 0;
+    @include flex (flex, column, center);
+    &__text{
+        color: #000;
+        font-size: 0.9em;
+    }
+    &__btn{
+        margin-top: 0.5em;
+        padding: 0.25em;
+        border-radius: 0.5em;
+        align-self: center;
+        color: #fff;
+        background-color: $linkedin;
+        box-shadow: 0.5em 0.5em 1em $linkedin-shadow;
+        &--linkedin{
+            text-decoration: none;
+            &:visited{
+                color: #fff;
+            }
+        }
+    }
+    &__menu{
+        margin-top: 0.5em;
+        display: flex;
+        flex-direction: row;
+    }
+    &__list{
+        margin: 0.25em;
+        &--item{
+            text-decoration: none;
+            font-size: 0.8em;
+        }
+    }
+}
