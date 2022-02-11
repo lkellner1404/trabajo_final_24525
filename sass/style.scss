@@ -41,6 +41,8 @@ body{
         &--title{
             text-align: center;
             margin-top: 0.5em;
+            font-weight: 500;
+            font-size: 1.5em;
         }
     }
     &__img{
@@ -66,6 +68,12 @@ body{
             @include flex (flex, column, center);
             padding: 1.5em;
         }
+        &--title{
+            font-size: 1.17em
+        }
+        &--text{
+            margin: 0;
+        }
     }
     &__form{
         @include flex (flex, column, flex-start);
@@ -84,6 +92,9 @@ body{
     }
     .txt-center{
         text-align: center
+    }
+    iframe{
+        margin-top: 1em;
     }
 }
 @import 'footer';

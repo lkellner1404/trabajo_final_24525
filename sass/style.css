@@ -97,6 +97,8 @@ body a:link, body a:visited {
 .main__text--title {
   text-align: center;
   margin-top: 0.5em;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
 .main__img {
@@ -147,6 +149,14 @@ body a:link, body a:visited {
   padding: 1.5em;
 }
 
+.main__serv--title {
+  font-size: 1.17em;
+}
+
+.main__serv--text {
+  margin: 0;
+}
+
 .main__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,6 +186,10 @@ body a:link, body a:visited {
 
 .main .txt-center {
   text-align: center;
+}
+
+.main iframe {
+  margin-top: 1em;
 }
 
 .footer {
