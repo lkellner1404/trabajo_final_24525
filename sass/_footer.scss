@@ -17,7 +17,10 @@
             text-decoration: none;
             color: #fff;
             &:visited{
-                color: #fff;
+                @extend .footer__btn--linkedin;
+            }
+            &:link{
+                @extend .footer__btn--linkedin;
             }
         }
     }

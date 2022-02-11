@@ -10,14 +10,14 @@ body{
     font-family: $fontFamily;
     font-size: $fontSize * 1.2;
     background-color: $white;
-    // a{
-    //     &:link{
-    //         color: black;
-    //     }
-    //     &:visited {
-    //         @extend a:link ;
-    //     }
-    // }
+    a{
+        &:link{
+            color: black;
+        }
+        &:visited {
+            @extend a:link ;
+        }
+    }
 }
 @import 'header';
 .main{

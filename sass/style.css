@@ -12,6 +12,10 @@ body {
   background-color: #EEEEEE;
 }
 
+body a:link, body a:visited {
+  color: black;
+}
+
 .header {
   margin-top: 0;
   margin-bottom: 1em;
@@ -198,12 +202,8 @@ body {
           box-shadow: 0.5em 0.5em 1em #094f71;
 }
 
-.footer__btn--linkedin {
+.footer__btn--linkedin, .footer__btn--linkedin:visited, .footer__btn--linkedin:link {
   text-decoration: none;
-  color: #fff;
-}
-
-.footer__btn--linkedin:visited {
   color: #fff;
 }
 
