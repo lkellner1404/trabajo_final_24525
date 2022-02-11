@@ -67,6 +67,7 @@ body{
         div{
             @include flex (flex, column, center);
             padding: 1.5em;
+            width: 100%;
         }
         &--title{
             font-size: 1.17em
