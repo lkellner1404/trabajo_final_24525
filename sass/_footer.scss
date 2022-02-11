@@ -11,11 +11,11 @@
         padding: 0.25em;
         border-radius: 0.5em;
         align-self: center;
-        color: #fff;
         background-color: $linkedin;
         box-shadow: 0.5em 0.5em 1em $linkedin-shadow;
         &--linkedin{
             text-decoration: none;
+            color: #fff;
             &:visited{
                 color: #fff;
             }

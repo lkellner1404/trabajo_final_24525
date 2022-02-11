@@ -32,7 +32,7 @@ body a:link, body a:visited {
 }
 
 .header__logo {
-  margin-top: 1em;
+  margin: 1em auto;
   width: 80vw;
 }
 
@@ -128,7 +128,6 @@ body a:link, body a:visited {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  color: #fff;
   background-color: #0e76a8;
   -webkit-box-shadow: 0.5em 0.5em 1em #094f71;
           box-shadow: 0.5em 0.5em 1em #094f71;
@@ -136,6 +135,7 @@ body a:link, body a:visited {
 
 .footer__btn--linkedin {
   text-decoration: none;
+  color: #fff;
 }
 
 .footer__btn--linkedin:visited {

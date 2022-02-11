@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEGADIAGNOSTICO | CONTACTO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../sass/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a href="../index.html"><img src="../img/logo.svg" alt="logo de megadiagnóstico" class="header__logo"></a>
         <nav>
-            <a href="../index.html"><img src="../img/logo.svg" alt="logo de megadiagnóstico"></a>
-            <ul>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+            <ul class="header__menu">
+                <li class="header__list"><a class="header__list--item" href="../pages/servicios.html">Servicios</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/ubicacion.html">Ubicación</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <h1>Contactanos</h1>
-        <img src="../img/contact.jpg" alt="persona escribiendo en computadora">
+    <main class="main">
+        <h1 class="main__title">Contactanos</h1>
+        <img class="main__img" src="../img/contact.jpg" alt="persona escribiendo en computadora">
         <form action="">
             <label for="">Nombre y Apellido</label>
             <input type="text" name="" id="">
@@ -34,18 +38,18 @@
         </form>
     </main>
 
-    <footer>
-        <p>Todos los derechos reservados &copy;2022 - Diseñado por Leonardo Kellner</p>
-        <section>
-            <a href="#">Conectemos en LinkedIn</a>
+    <footer class="footer">
+        <p class="footer__text">Todos los derechos reservados &copy;2022 - Diseñado por Leonardo Kellner</p>
+        <section class="footer__btn">
+            <a class="footer__btn--linkedin" href="#">Conectemos en LinkedIn</a>
         </section>
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+            <ul class="footer__menu">
+                <li class="footer__list"><a class="footer__list--item" href="../index.html">Home</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/servicios.html">Servicios</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/ubicacion.html">Ubicación</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </footer>

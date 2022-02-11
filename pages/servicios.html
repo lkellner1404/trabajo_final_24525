@@ -5,58 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEGADIAGNOSTICO | SERVICIOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../sass/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a href="../index.html"><img src="../img/logo.svg" alt="logo de megadiagnóstico" class="header__logo"></a>
         <nav>
-            <a href="../index.html"><img src="../img/logo.svg" alt="logo de megadiagnóstico"></a>
-            <ul>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+            <ul class="header__menu">
+                <li class="header__list"><a class="header__list--item" href="../pages/servicios.html">Servicios</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/ubicacion.html">Ubicación</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <h1>Nuestros Servicios</h1>
-        <h2>Servicio de Gestión y Auditoría</h2>
-        <p>El area de Gestión y Auditoría se encuentra diagramada para brindar el servicio de auditoría y facturación de prestaciones medicas realizadas por nuestra red de prestadores, lo cual minimiza los errores y sirve de control previo a la auditoría que el Financiador requiera realizar. Al mismo tiempo, si se detectan errores en dicha facturación se devuelve al prestador de la red para que realice los cambios correspondientes.</p>
-        <p>Simultáneamente con la auditoría mencionada se procede a preparar y ordenar toda la documentación de prestaciones médicas que la Obra Social puede elevar al Sistema Unico de Reintegro (SUR) para su reintegro, o la Superintendencia de Servicios de Salud (SSS), para cumplir con los informes estadísticos (Res 650). </p>
-        <img src="../img/ecografia.jpg" alt="imagen de ecografia">
-        <h2>Servicio de Gestión Informática</h2>
-        <p>Este servicio garantiza la integridad y confidencialidad de la información brindada por los prestadores, ajustándose a los más altos estándares de seguridad informática vigentes en el medio, a la vez que proporcionamos una plataforma donde los prestadores pueden buscar a los afiliados mediante la utilización de padrones y autorizar prácticas siguiendo las Normas Operativas que cada convenio requiera, así como también el Financiador puede realizar un seguimiento y control de dicha información.</p>
-        <h2>Nuestros Servicios Incluyen...</h2>
-        <ul>
-            <li>Radiología Simple</li>
-            <li>Radiología Contrastada</li>
-            <li>Ecografía Nomenclada</li>
-            <li>Ecografía No Nomenclada</li>
-            <li>Ecodoppler Cardíaco</li>
-            <li>Ecodoppler Arterial y Venoso</li>
-            <li>Electrocardiograma</li>
-            <li>Ergometría</li>
-            <li>Holter y Presurometría</li>
-            <li>Tomografía Computada</li>
-            <li>Resonancia Nuclear Magnética</li>
-            <li>Análisis de Laboratorio</li>
-        </ul>
-        <p>Entre otros...</p>
+    <main class="main">
+        <h1 class="main__title">Nuestros Servicios</h1>
+        <section class="main__text">
+            <h2 class="main__text--title">Servicio de Gestión y Auditoría</h2>
+            <p class="main__text--block">El area de Gestión y Auditoría se encuentra diagramada para brindar el servicio de auditoría y facturación de prestaciones medicas realizadas por nuestra red de prestadores, lo cual minimiza los errores y sirve de control previo a la auditoría que el Financiador requiera realizar. Al mismo tiempo, si se detectan errores en dicha facturación se devuelve al prestador de la red para que realice los cambios correspondientes.</p>
+            <p class="main__text--block">Simultáneamente con la auditoría mencionada se procede a preparar y ordenar toda la documentación de prestaciones médicas que la Obra Social puede elevar al Sistema Unico de Reintegro (SUR) para su reintegro, o la Superintendencia de Servicios de Salud (SSS), para cumplir con los informes estadísticos (Res 650). </p>
+        </section>
+        <img class="main__img" src="../img/ecografia.jpg" alt="imagen de ecografia">
+        <section class="main__text">
+            <h2 class="main__text--title">Servicio de Gestión Informática</h2>
+            <p class="main__text--block">Este servicio garantiza la integridad y confidencialidad de la información brindada por los prestadores, ajustándose a los más altos estándares de seguridad informática vigentes en el medio, a la vez que proporcionamos una plataforma donde los prestadores pueden buscar a los afiliados mediante la utilización de padrones y autorizar prácticas siguiendo las Normas Operativas que cada convenio requiera, así como también el Financiador puede realizar un seguimiento y control de dicha información.</p>
+            <h2 class="main__text--title">Nuestros Servicios Incluyen...</h2>
+            <ul class="main__list">
+                <li class="main__list--item">Radiología Simple</li>
+                <li class="main__list--item">Radiología Contrastada</li>
+                <li class="main__list--item">Ecografía Nomenclada</li>
+                <li class="main__list--item">Ecografía No Nomenclada</li>
+                <li class="main__list--item">Ecodoppler Cardíaco</li>
+                <li class="main__list--item">Ecodoppler Arterial y Venoso</li>
+                <li class="main__list--item">Electrocardiograma</li>
+                <li class="main__list--item">Ergometría</li>
+                <li class="main__list--item">Holter y Presurometría</li>
+                <li class="main__list--item">Tomografía Computada</li>
+                <li class="main__list--item">Resonancia Nuclear Magnética</li>
+                <li class="main__list--item">Análisis de Laboratorio</li>
+            </ul>
+            <p class="main__text--block">Entre otros...</p>
+        </section>
     </main>
 
-    <footer>
-        <p>Todos los derechos reservados &copy;2022 - Diseñado por Leonardo Kellner</p>
-        <section>
-            <a href="#">Conectemos en LinkedIn</a>
+    <footer class="footer">
+        <p class="footer__text">Todos los derechos reservados &copy;2022 - Diseñado por Leonardo Kellner</p>
+        <section class="footer__btn">
+            <a class="footer__btn--linkedin" href="#">Conectemos en LinkedIn</a>
         </section>
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+            <ul class="footer__menu">
+                <li class="footer__list"><a class="footer__list--item" href="../index.html">Home</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/servicios.html">Servicios</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/ubicacion.html">Ubicación</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </footer>

@@ -5,52 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEGADIAGNOSTICO | UBICACION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../sass/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a href="../index.html"><img src="../img/logo.svg" alt="logo de megadiagnóstico" class="header__logo"></a>
         <nav>
-            <a href="../index.html"><img src="../img/logo.svg" alt="logo de megadiagnóstico"></a>
-            <ul>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+            <ul class="header__menu">
+                <li class="header__list"><a class="header__list--item" href="../pages/servicios.html">Servicios</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/ubicacion.html">Ubicación</a></li>
+                <li class="header__list"><a class="header__list--item" href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <h1>Donde nos encontramos?</h1>
+    <main class="main">
+        <h1 class="main__title">Donde nos encontramos?</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.5162815910444!2d-58.39861392947743!3d-34.6110418744765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae8c500d491%3A0x7ad75742bbd257b6!2sMegadiagnostico%20Sede%20Auditoria!5e0!3m2!1ses-419!2sar!4v1638832271242!5m2!1ses-419!2sar" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <h2>Como llegar</h2>
-        <img src="../img/bus.svg" alt="imagen de colectivo">
-        <h3>Lineas de Colectivo</h3>
-        <p>2 - 5 - 7 - 8 - 56 - 64 - 75 - 84 - 86 - 95 - 98 - 103 - 105 - 115 - 129 - 146 - 151 - 168 - 188 - 194</p>
-        <img src="../img/metro.svg" alt="imagen de subte">
-        <h3>Lineas de Subte</h3>
-        <p>Línea A desde San Pedrito: ESTACION PASCO</p>
-        <p>Línea A desde Plaza de Mayo: ESTACION ALBERTI</p>
-        <img src="../img/train.svg" alt="imagen de tren">
-        <h3>Lineas de Tren</h3>
-        <p>Línea Sarmiento: ESTACION ONCE</p>
-        <img src="../img/bycicle.svg" alt="imagen de bicicleta">
-        <h3>Estaciones de BaBici</h3>
-        <p>Estación 075: Plaza 1ro de Mayo, Alsina y Pichincha.</p>
-        <p>Estación 162: Larrea y Bartolomé Mitre</p>
+        <h2 class="main__text--title">Como llegar</h2>
+        <section class="main__serv">
+            <img class="main__serv--img" src="../img/bus.svg" alt="imagen de colectivo">
+            <div>
+                <h3 class="main__serv--title">Lineas de Colectivo</h3>
+                <p class="main__serv--text">2 - 5 - 7 - 8 - 56 - 64 - 75 - 84 - 86 - 95 - 98 - 103 - 105 - 115 - 129 - 146 - 151 - 168 - 188 - 194</p>
+            </div>
+        </section>
+        <section>
+            <img class="main__serv--img" src="../img/metro.svg" alt="imagen de subte">
+            <div>
+                <h3 class="main__serv--title">Lineas de Subte</h3>
+                <p class="main__serv--text">Línea A desde San Pedrito: ESTACION PASCO</p>
+                <p class="main__serv--text">Línea A desde Plaza de Mayo: ESTACION ALBERTI</p>
+            </div>
+        </section>
+        <section>
+            <img class="main__serv--img" src="../img/train.svg" alt="imagen de tren">
+            <div>
+                <h3 class="main__serv--title">Lineas de Tren</h3>
+                <p class="main__serv--text">Línea Sarmiento: ESTACION ONCE</p>
+            </div>
+        </section>
+        <section>
+            <img class="main__serv--img" src="../img/bycicle.svg" alt="imagen de bicicleta">
+            <div>
+                <h3 class="main__serv--title">Estaciones de BaBici</h3>
+                <p class="main__serv--text">Estación 075: Plaza 1ro de Mayo, Alsina y Pichincha.</p>
+                <p class="main__serv--text">Estación 162: Larrea y Bartolomé Mitre</p>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>Todos los derechos reservados &copy;2022 - Diseñado por Leonardo Kellner</p>
-        <section>
-            <a href="#">Conectemos en LinkedIn</a>
+    <footer class="footer">
+        <p class="footer__text">Todos los derechos reservados &copy;2022 - Diseñado por Leonardo Kellner</p>
+        <section class="footer__btn">
+            <a class="footer__btn--linkedin" href="#">Conectemos en LinkedIn</a>
         </section>
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+            <ul class="footer__menu">
+                <li class="footer__list"><a class="footer__list--item" href="../index.html">Home</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/servicios.html">Servicios</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/quienes-trabajan.html">Quienes Trabajan Con Nosotros</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/ubicacion.html">Ubicación</a></li>
+                <li class="footer__list"><a class="footer__list--item" href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </footer>
