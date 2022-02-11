@@ -12,10 +12,6 @@ body {
   background-color: #EEEEEE;
 }
 
-body a:link, body a:visited {
-  color: black;
-}
-
 .header {
   margin-top: 0;
   margin-bottom: 1em;
@@ -74,7 +70,7 @@ body a:link, body a:visited {
 }
 
 .main__title {
-  color: #000;
+  text-align: center;
 }
 
 .main__text {
@@ -87,6 +83,11 @@ body a:link, body a:visited {
   margin-top: 0.5em;
 }
 
+.main__text--title {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
 .main__img {
   margin-top: 1em;
   width: 80vw;
@@ -95,10 +96,74 @@ body a:link, body a:visited {
 
 .main__list {
   margin-left: 2em;
+  margin-top: 0.5em;
 }
 
 .main__list--item {
   list-style: square;
+}
+
+.main__serv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75vw;
+}
+
+.main__serv--img {
+  width: 15vw;
+}
+
+.main__serv div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5em;
+}
+
+.main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 75vw;
+  margin-top: 1em;
+}
+
+.main__form label {
+  margin-top: 0.5em;
+}
+
+.main__form input, .main__form textarea {
+  width: 100%;
+}
+
+.main__form textarea {
+  height: 4rem;
+}
+
+.main .txt-center {
+  text-align: center;
 }
 
 .footer {

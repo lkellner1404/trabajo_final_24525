@@ -10,14 +10,14 @@ body{
     font-family: $fontFamily;
     font-size: $fontSize * 1.2;
     background-color: $white;
-    a{
-        &:link{
-            color: black;
-        }
-        &:visited {
-            @extend a:link ;
-        }
-    }
+    // a{
+    //     &:link{
+    //         color: black;
+    //     }
+    //     &:visited {
+    //         @extend a:link ;
+    //     }
+    // }
 }
 @import 'header';
 .main{
@@ -26,7 +26,8 @@ body{
     margin-top: 1em;
     @include flex (flex, column, center);
     &__title{
-        color: #000;
+        // color: #000;
+        text-align: center;
     }
     &__text{
         color: #000;
@@ -34,6 +35,10 @@ body{
         &--block{
             text-align: justify;
             margin-top: 0.5em
+        }
+        &--title{
+            text-align: center;
+            margin-top: 0.5em;
         }
     }
     &__img{
@@ -43,10 +48,39 @@ body{
     }
     &__list{
         margin-left: 2em;
+        margin-top: 0.5em;
         &--item{
             list-style: square;
         }
     }
-    
+    &__serv{
+        @include flex (flex, row, center);
+        width: 75vw;
+        &--img{
+            width: 15vw;
+        }
+        div{
+            @include flex (flex, column, center);
+            padding: 1.5em;
+        }
+    }
+    &__form{
+        @include flex (flex, column, flex-start);
+        width: 75vw;
+        margin-top: 1em;
+        label {
+            margin-top: 0.5em;
+        }
+        input {
+            width: 100%;
+        }
+        textarea {
+            @extend input;
+            height: 4rem;
+        }
+    }
+    .txt-center{
+        text-align: center
+    }
 }
 @import 'footer';
