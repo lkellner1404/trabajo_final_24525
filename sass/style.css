@@ -193,6 +193,10 @@ body a:link, body a:visited {
   margin-top: 1em;
 }
 
+.main .carousel {
+  width: 80vw;
+}
+
 .footer {
   margin-top: 1em;
   margin-bottom: 0;
