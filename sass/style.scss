@@ -24,6 +24,7 @@ body{
 }
 .main{
     width: 85vw;
+    min-height: calc(100vh - 341px - 105px);
     margin: 0 auto;
     margin-top: 1em;
     @include flex (flex, column, center);
@@ -114,6 +115,7 @@ body{
     }
     .main{
         width: 75vw;
+        min-height: calc(100vh - 202px - 111px);
         &__img{
             width: 70vw;
         }
@@ -136,6 +138,7 @@ body{
         font-size: $fontSize*1.4;
     }
     .main{
+        min-height: calc(100vh - 223px - 118px);
         &__serv{
             &--list{
                 display: grid;
@@ -156,6 +159,7 @@ body{
     }   
     .main{
         width: 65vw;
+        min-height: calc(100vh - 211px - 126px);
         &__img{
             width: 60vw;
         }
@@ -170,6 +174,7 @@ body{
     }
     .main{
         width: 55vw;
+        min-height: calc(100vh - 181px - 48px);
         &__img{
             width: 50vw;
         }
