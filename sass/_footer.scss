@@ -44,5 +44,9 @@
     .footer{
         @include flex (flex, row, center);
         justify-content: space-between;
+        margin-bottom: 1rem;
+        &__text, &__btn, &__menu{
+            margin: 0;
+        }
     }
 }

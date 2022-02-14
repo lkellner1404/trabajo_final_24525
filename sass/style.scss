@@ -63,7 +63,7 @@ body{
     }
     &__medio{
         @include flex (flex, row, center);
-        width: 75vw;
+        width: 90%;
         &--img{
             width: 15vw;
         }
@@ -122,13 +122,13 @@ body{
                 width: 13.5vw;
             }
         }
+        .carrusel{
+            width: 70vw;
+        }
     }
     iframe {
         width: 70vw;
         max-width: 600px;
-    }
-    .carrusel{
-        width: 70vw!important;
     }
 }
 @media screen and (min-width:768px) {
@@ -145,7 +145,7 @@ body{
         &__medio{
             margin-top: 1em;
             &--img{
-                width: 12vw;
+                width: 11vw;
             }
         }
     }
@@ -159,9 +159,9 @@ body{
         &__img{
             width: 60vw;
         }
-    }
-    .carrusel{
-        width: 60vw!important;
+        .carrusel{
+            width: 60vw;
+        }
     }
 }
 @media screen and (min-width:1200px) {
@@ -175,12 +175,12 @@ body{
         }
         &__medio{
             &--img{
-                width: 10vw;
+                width: 8vw;
             }
         }
-    }
-    .carrusel{
-        width: 50vw!important;
+        .carrusel{
+            width: 50vw;
+        }
     }
 
 }
@@ -197,7 +197,7 @@ body{
         }
         &__medio{
             &--img{
-                width: 7vw;
+                width: 5vw;
             }
         }
     }
