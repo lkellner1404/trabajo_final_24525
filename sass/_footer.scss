@@ -1,4 +1,5 @@
 .footer{
+    width: 100%;
     margin-top: 1em;
     margin-bottom: 0;
     @include flex (flex, column, center);
@@ -29,6 +30,7 @@
         margin-top: 0.5em;
         display: flex;
         flex-direction: row;
+        padding: 0;
     }
     &__list{
         margin: 0.25em;
@@ -36,5 +38,11 @@
             text-decoration: none;
             font-size: 0.8em;
         }
+    }
+}
+@media screen and (min-width:1200px) {
+    .footer{
+        @include flex (flex, row, center);
+        justify-content: space-between;
     }
 }

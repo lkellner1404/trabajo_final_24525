@@ -24,3 +24,41 @@
         }
     }
 }
+@media screen and (min-width: 576px) {
+    .header{
+        @include flex (flex, row, center);
+        margin: 1em;
+        justify-content: space-between;
+        &__logo{
+            width: 40vw;
+            margin: 1em;
+        }
+        &__menu{
+            margin: 1em;
+        }
+    }
+}
+@media screen and (min-width:999px) {
+    .header{
+        &__logo{
+            width: 30vw;
+        }
+        &__menu{
+            display: flex;
+        }
+    }   
+}
+@media screen and (min-width:1022px) {
+    .header{
+        &__list{
+            padding: 0.5em 1em;
+        }
+    }    
+}
+@media screen and (min-width:1200px) {
+    .header{
+        &__logo{
+            width:20vw
+        }
+    }
+}
