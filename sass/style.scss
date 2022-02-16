@@ -1,7 +1,6 @@
 @import 'vars';
 @import 'mixin';
-@import 'footer';
-@import 'header';
+@import 'animacion';
 
 * {
     margin: 0;
@@ -22,6 +21,7 @@ body{
         }
     }
 }
+@import 'header';
 .main{
     width: 85vw;
     min-height: calc(100vh - 341px - 105px);
@@ -187,7 +187,7 @@ body{
             width: 50vw;
         }
     }
-
+    
 }
 @media screen and (min-width:1400px) {
     .main{
@@ -207,3 +207,4 @@ body{
         }
     }
 }
+@import 'footer';

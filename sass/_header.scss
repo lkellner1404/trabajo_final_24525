@@ -18,8 +18,8 @@
         border-radius: 1em;
         &--item{
             text-decoration: none;
-            &:visited{
-                color: #000;
+            &:visited, &:link{
+                color: #fff;
             }
         }
     }

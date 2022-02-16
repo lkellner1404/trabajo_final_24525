@@ -44,9 +44,18 @@
     .footer{
         @include flex (flex, row, center);
         justify-content: space-between;
-        margin-bottom: 1rem;
-        &__text, &__btn, &__menu{
+        margin-bottom: 1.5rem;
+        &__text, &__menu{
             margin: 0;
+        }
+        &__btn{
+            margin: 0;
+            &:hover{
+                animation-name: btnclk;
+                animation-duration: 250ms;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: 1;
+            }
         }
     }
 }
